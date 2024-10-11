@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import TopPage from '../src/toppage/TopPage';
 import Task1 from '../src/task1/Task1';
+import Task2 from '../src/task2/Task2';
 
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <Routes>
         <Route path="/" element={<TopPage />} />
         <Route path="/Task1" element={<Task1 />} />
+        <Route path="/Task2" element={<Task2 />} />
       </Routes>
     </Router>
   );

@@ -1,10 +1,10 @@
 import { Avatar, Box, Grid, Grid2, Typography, useMediaQuery } from "@mui/material";
-import mainVisual from "../images/mainvisual.png";
-import avatar from "../images/avatar.png";
-import bicycleImage1 from "../images/bicycle1.png";
-import bicycleImage2 from "../images/bicycle2.png";
-import bicycleImage3 from "../images/bicycle3.png";
-import logo from "../images/logo.png"
+import mainVisual from "../images/task1Images/mainvisual.png";
+import avatar from "../images/task1Images/avatar.png";
+import bicycleImage1 from "../images/task1Images/bicycle1.png";
+import bicycleImage2 from "../images/task1Images/bicycle2.png";
+import bicycleImage3 from "../images/task1Images/bicycle3.png";
+import logo from "../images/task1Images/logo.png"
 import './style.css'
 
 const Task1 = () => {
@@ -41,7 +41,7 @@ const Task1 = () => {
           backgroundRepeat: "no-repeat",
           backgroundSize: "cover", 
           '@media (min-width: 900px)': {
-            backgroundSize: "contain", 
+            backgroundSize: "cover", 
           },
         }}
       ></Box>
