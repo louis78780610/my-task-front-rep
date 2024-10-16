@@ -3,6 +3,8 @@ import TopPage from '../src/toppage/TopPage';
 import Task1 from '../src/task1/Task1';
 import Task2 from '../src/task2/Task2';
 import Task3 from './task3/Task3';
+import Task4 from './task4/Task4';
+
 
 
 function App() {
@@ -14,6 +16,7 @@ function App() {
         <Route path="/Task1" element={<Task1 />} />
         <Route path="/Task2" element={<Task2 />} />
         <Route path="/Task3" element={<Task3 />} />
+        <Route path="/Task4" element={<Task4 />} />
       </Routes>
     </Router>
   );
