@@ -122,7 +122,6 @@ const Task2 = () => {
             justifyContent: "flex-start",
             alignItems: "flex-start",
             height: "100%",
-            // paddingTop: "30px",
             paddingBottom: "30px"
           }}
       >
