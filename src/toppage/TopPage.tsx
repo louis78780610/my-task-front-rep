@@ -9,6 +9,7 @@ const TopPage = () => {
       <div className='flex justify-center p-12 sm:p-4 md:flex md:flex-col md:items-center sm:items-center'>
         <Link to="task1"><Button onClick={() => {}} children="Task1"/></Link>
         <Link to="task2"><Button onClick={() => {}} children="Task2"/></Link>
+        <Link to="task3"><Button onClick={() => {}} children="Task3"/></Link>
       </div>
       </div>
     </>
