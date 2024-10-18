@@ -13,6 +13,7 @@ const TopPage = () => {
         <Link to="task4"><Button onClick={() => {}} children="Task4"/></Link>
         <Link to="task5"><Button onClick={() => {}} children="Task5"/></Link>
         <Link to="task6"><Button onClick={() => {}} children="Task6"/></Link>
+        <Link to="task7"><Button onClick={() => {}} children="Task7"/></Link>
       </div>
       </div>
     </>
