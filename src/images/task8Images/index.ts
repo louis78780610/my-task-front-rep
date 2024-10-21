@@ -1,0 +1,13 @@
+export { default as antique } from './antique.png';
+export { default as catalog } from './catalog.png';
+export { default as fashion } from './fashion.png';
+export { default as logo } from './logo.png';
+export { default as magazineArchive } from './magazine-archive.png';
+export { default as magazineNew } from './magazine-new.png';
+export { default as mainvisual } from './mainvisual.png';
+export { default as resAntique } from './res_antique.png';
+export { default as resCatalog } from './res_catalog.png';
+export { default as resFashion } from './res_fashion.png';
+export { default as resMagazineArchive } from './res_magazine-archive.png';
+export { default as resMagazineNew } from './res_magazine-new.png';
+export { default as resMainvisual } from './res_mainvisual.png';
