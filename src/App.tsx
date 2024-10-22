@@ -8,6 +8,8 @@ import Task5 from './task5/Task5';
 import Task6 from './task6/Task6';
 import Task7 from './task7/Task7';
 import Task8 from './task8/Task8';
+import Task9 from './task9/Task9';
+
 
 function App() {
 
@@ -23,6 +25,7 @@ function App() {
         <Route path="/Task6" element={<Task6 />} />
         <Route path="/Task7" element={<Task7 />} />
         <Route path="/Task8" element={<Task8 />} />
+        <Route path="/Task9" element={<Task9 />} />
       </Routes>
     </Router>
   );

@@ -1,0 +1,25 @@
+/* テーブル全体のスタイル */
+.table-container {
+  width: 340px;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-family: Arial, sans-serif;
+}
+
+/* テーブルのセルのスタイル */
+.table-container th, .table-container td {
+  width: 68px;
+  height: 34px;
+  padding: 0; /* 余白をゼロに */
+  text-align: center;
+  font-size: 12px;
+  border: 1px solid #ccc;
+}
+
+/* セレクトボックスのスタイル */
+.custom-select {
+  width: 100%;
+  padding: 0; /* 内部の余白をゼロに */
+  border: 1px solid #ccc;
+  height: 34px; /* セレクトボックスの高さをセルに合わせる */
+}
