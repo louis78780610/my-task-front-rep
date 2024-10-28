@@ -11,6 +11,7 @@ import Task8 from './task8/Task8';
 import Task9 from './task9/Task9';
 import Task10 from './task10/Task10';
 import Task11 from './task11/Task11';
+import Task12 from './task12/Task12';
 
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
         <Route path="/Task9" element={<Task9 />} />
         <Route path="/Task10" element={<Task10 />} />
         <Route path="/Task11" element={<Task11 />} />
+        <Route path="/Task12" element={<Task12 />} />
       </Routes>
     </Router>
   );
